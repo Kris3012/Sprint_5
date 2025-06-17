@@ -36,6 +36,11 @@
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
+                        <configuration>
+                            <excludes>
+                                <exclude>com/example/Animal*</exclude>
+                            </excludes>
+                        </configuration>
                     </execution>
                     <execution>
                         <id>report</id>
@@ -45,7 +50,7 @@
                         </goals>
                         <configuration>
                             <excludes>
-                                <exclude>com/example/Animal.class</exclude>
+                                <exclude>com/example/Animal*</exclude>
                             </excludes>
                         </configuration>
                     </execution>
