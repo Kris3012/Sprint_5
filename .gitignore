@@ -21,3 +21,15 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Разное
+.idea
+/target/
+.build
+
+#  не игнорировать отчет  jacoco
+!target/site/
+!target/site/jacoco/
+!target/site/jacoco/index.html
+
+
